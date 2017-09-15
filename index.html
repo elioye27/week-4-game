@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crytal Game</title>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script
+        src="https://code.jquery.com/jquery-3.2.1.js"
+        integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+        crossorigin="anonymous"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+	
+</head>
+<body>
+	<header>Crystal Collector</header>
+	<div id="crystal">
+		<nav>
+			<h4 id="wins">Wins:</h4><br>
+			<h4 id="losses">Losses:</h4>
+		</nav>
+	</div>
+
+	<div class="w3-container">
+	  	<div id="instruct">
+	  		<button type="button" onclick="document.getElementById('id01').style.display='block'" class="btn btn-primary">Click Here for Instrutions!</button>
+	  	</div>
+
+	  <div id="id01" class="w3-modal">
+	    <div class="w3-modal-content w3-animate-top w3-card-4">
+	      <header class="w3-container w3-teal"> 
+	        <span onclick="document.getElementById('id01').style.display='none'" 
+	        class="w3-button w3-display-topright">&times;</span>
+	        <h2>How to play</h2>
+	      </header>
+	      <div class="w3-container">
+	        <p>You will be given a random number at the start of the game.</p>
+	        <p>There are four crytals below. By clicking on a crystal you will add a specific amount of points to your total.</p>
+	        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+	        <p>The value of each crytal is hidden from you until you click on it.</p>
+	        <p>Each time when the game starts, the game will change the values of each crytal.</p>
+	      </div>
+	      <footer class="w3-container w3-teal">
+	        <p>Good luck and have fun!</p>
+	      </footer>
+	    </div>
+	  </div>
+	</div>
+	
+	<div id="container">
+		<p id="compScore">PRESS ENTER TO PLAY</p>
+
+		<div class="score"><p>Your total score is:</p>
+			<p id="score"></p>
+		</div>
+
+		<div class="imgage">
+			<img class="img1" src="assets/images/cry14org.png" alt="photo of orange crytal">
+			<img class="img2" src="assets/images/cry12.png" alt="photo of green crytal">
+			<img class="img3" src="assets/images/cry12blue.png" alt="photo of blue crytal">
+			<img class="img4" src="assets/images/cry7.png" alt="photo of red crytal">
+		</div>
+	</div>
+  
+</body>
+</html>

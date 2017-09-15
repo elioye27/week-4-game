@@ -1,0 +1,87 @@
+body, html {
+	background-image: url(../images/bg2.png);
+	background-repeat: no-repeat;
+	height: 100%;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid gold;
+}
+
+header{
+	font:50px bold;
+	text-align: center;
+}
+
+#instruct{
+	margin-top:15px;
+	max-width: 300px;
+	margin-left: 600px;
+}
+
+
+
+#compScore{
+	margin-top:40px;
+	max-width: 400px;
+	height: 200px;
+	margin-left: 500px;
+	background-color: blue;
+	font: 55px bold;
+	color: white;
+	text-align: center;
+	padding-top: 25px;
+}
+
+
+
+nav{
+	padding-left: 100px;
+	font: 20px bold;
+	max-width: 200px;
+	background-color: yellow;
+}
+
+.score{
+	text-align: center;
+	margin-left: 550px;
+	margin-top:25px;
+	font:25px bold;
+	color: white;
+	background-color: #006622;
+	max-width: 300px;
+	height: 100px;
+}
+
+#score{
+	font:50px bold;
+	padding: 15px;
+}
+
+
+.img1{
+	margin-top:100px;
+	margin-left:150px;
+	padding-left: 75px;
+	width: 220px;
+}
+
+.img2{
+	padding-left: 75px;
+	margin-left:100px;
+	width: 220px;
+}
+
+.img3{
+	padding-left: 75px;
+	margin-left:100px;
+	width: 220px;
+	max-width: 220px;
+	max-height: 120px;
+}
+
+.img4{
+	padding-left: 75px;
+	margin-left:100px;
+	width: 220px;
+}
